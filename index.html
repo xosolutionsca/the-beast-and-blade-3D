@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>The Beast and the Blade — Prototype</title>
+<style>
+html, body { width:100%; height:100%; margin:0; overflow:hidden; background:#0b0c10; }
+#renderCanvas { width:100%; height:100%; outline:none; display:block; }
+.hint {
+position: fixed; left: 12px; bottom: 12px; padding: 8px 10px;
+font: 12px/1.4 system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+color: #ddd; background: rgba(0,0,0,.45); border: 1px solid rgba(255,255,255,.12); border-radius: 6px;
+}
+</style>
+<!-- Babylon.js + GUI via CDN -->
+<script src="https://cdn.babylonjs.com/babylon.js"></script>
+<script src="https://cdn.babylonjs.com/gui/babylon.gui.min.js"></script>
+</head>
+<body>
+<canvas id="renderCanvas"></canvas>
+<div class="hint">WASD to move • Mouse to look • Shift to sprint • E to interact</div>
+<script type="module" src="./src/main.js"></script>
+</body>
+</html>
