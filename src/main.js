@@ -1,3 +1,4 @@
+console.log("MAIN.JS LOADED ✅");
 // The Beast and the Blade — Browser Prototype (Babylon.js)
 // Phase 1: movement, chiaroscuro lighting, basic quest flow & UI
 
